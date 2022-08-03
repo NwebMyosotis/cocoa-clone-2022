@@ -53,6 +53,10 @@
   border-radius: 5px;
 }
 
+#login-form input[type="submit"]:active {
+  background-color: var(--myocoffee);
+}
+
 #login-form a {
   text-align: center;
   text-decoration: none;
