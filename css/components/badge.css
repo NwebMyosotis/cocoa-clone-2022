@@ -1,0 +1,29 @@
+/* 기존에 만들어 놓은 badge */
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+/* 추가한 내용 */
+.header_setting-badge {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav_setting-badge {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
