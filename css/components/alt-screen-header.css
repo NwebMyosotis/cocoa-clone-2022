@@ -1,0 +1,29 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+/* chat.html */
+
+.header-chat__column:nth-child(2) {
+  padding-left: 40px;
+}
+
+.header-chat span:last-child {
+  margin-left: 20px;
+}
