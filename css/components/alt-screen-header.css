@@ -3,6 +3,11 @@
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  z-index: 9;
+}
+
+.alt-header__column {
+  width: 33%;
 }
 
 .alt-header__title {
@@ -14,16 +19,16 @@
   margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
-/* chat.html */
-
-.header-chat__column:nth-child(2) {
-  padding-left: 40px;
-}
-
-.header-chat span:last-child {
+.alt-header__column span:last-child {
   margin-left: 20px;
 }
