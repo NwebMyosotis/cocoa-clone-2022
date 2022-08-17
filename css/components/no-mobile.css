@@ -9,6 +9,8 @@
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  font-family: cursive;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 645px) {
