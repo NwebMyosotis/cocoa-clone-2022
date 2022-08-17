@@ -15,15 +15,27 @@
 .header_setting-badge {
   width: 5px;
   height: 5px;
-  position: relative;
-  left: 20px;
+  position: absolute;
+  left: 22px;
   bottom: 15px;
+}
+
+.screen-header__setting-link {
+  position: relative;
 }
 
 .nav_setting-badge {
   width: 5px;
   height: 5px;
-  position: relative;
+  position: absolute;
   bottom: 30px;
   left: 30px;
+}
+
+.badge__return-login {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  left: 30px;
+  bottom: 28px;
 }

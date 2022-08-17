@@ -13,6 +13,11 @@
   font-size: 22px;
 }
 
+.settings__setting-column .fa-xmarks-lines {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
